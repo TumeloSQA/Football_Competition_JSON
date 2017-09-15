@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/team_standing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="#"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/match_played"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:text="MP"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/match_won"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="W"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/match_draw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:text="D"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/match_lose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:text="L"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/goal_for"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:text="GF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/goal_against"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:text="GA"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/goal_diff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="GD"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/team_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:text="Pts"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtTeam_standing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/txtMatch_played"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtMatch_won"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtMatch_draw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtMatch_lose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtGoal_for"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtGoal_against"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtGoal_diff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTeam_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="14dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

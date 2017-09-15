@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FOOTBALL COMPETITION WORLDWIDE</string>
+    <string name="title_activity_football_tabs">football_tabs</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="teams_api">http://api.football-data.org/v1/competitions/445/teams</string>
+    <string name="comp_api">http://api.football-data.org/v1/competitions</string>
+    <string name="players_api">http://api.football-data.org/v1/teams/64/players</string>
+    <string name="fixture_api">http://api.football-data.org/v1/teams/328/fixtures</string>
+</resources>
